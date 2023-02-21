@@ -117,6 +117,8 @@ set(LIBRARY_SRCS
   libraries/USB/src/USBHIDSystemControl.cpp
   libraries/USB/src/USBHIDVendor.cpp
   libraries/USB/src/USBVendor.cpp
+  libraries/USB_Host_Shield_2.0/Usb.cpp
+  libraries/USB_Host_Shield_2.0/UHS2_gpio.cpp
   libraries/WebServer/src/WebServer.cpp
   libraries/WebServer/src/Parsing.cpp
   libraries/WebServer/src/detail/mimetable.cpp
@@ -198,6 +200,7 @@ set(includedirs
   libraries/Ticker/src
   libraries/Update/src
   libraries/USB/src
+  libraries/USB_Host_Shield_2.0
   libraries/WebServer/src
   libraries/WiFiClientSecure/src
   libraries/WiFi/src
